@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu du XO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Jeu du XO</h1>
+    <!-- le nom du jeux -->
+    <h2 class ="titre"><span>Cliquez sur une case pour commencer </span> </h2> 
+    <!-- indique a qui le tour  -->
+    <div class="jeu">
+        <!-- création des carre du jeux pour insére les X et O a l'interieur  -->
+        <!-- l'id servira pour le js pour distinguer les differents carrés    -->
+        <div class="carre" id="carre1"></div>  
+        <div class="carre" id="carre2"></div>
+        <div class="carre" id="carre3"></div>
+        <div class="carre" id="carre4"></div>
+        <div class="carre" id="carre5"></div>
+        <div class="carre" id="carre6"></div>
+        <div class="carre" id="carre7"></div>
+        <div class="carre" id="carre8"></div>
+        <div class="carre" id="carre9"></div>
+        
+    </div>
+
+    
+    <section>
+        <article>
+            <h2><strong>présentation du jeu :</strong></h2>
+            <ul>
+                <li> <strong> Plateau de jeu : </strong> Le jeu se déroule sur un plateau composé de 3 lignes et 3 colonnes, créant ainsi 9 cases au total.</li>
+                <li> <strong> Nombre de joueur : </strong> Le jeu est joué entre 2 joueurs.</li>
+            </ul>
+        </article>
+        <article>
+            <h2><strong>Règles :</strong></h2>
+            <ul>
+                <li> <strong>  Tour de jeu : </strong> Le premier joueur au hasard décide de jouer avec "X", le second joueur joue avec "O" dans une case vide.</li>
+                <li> <strong>Match nul : </strong> Si toutes les cases du plateau sont remplies et qu'aucun joueur n'a réussi à aligner trois symboles, la partie est déclarée nulle.</li>
+                <li> <strong> Objectif du jeu : </strong>L'objectif du morpion est d'aligner trois de vos symboles (X ou O) en ligne, que ce soit horizontalement, verticalement ou en diagonale.</li>
+                <li> <strong>Fin de la partie : </strong>  La partie se termine dès qu'un joueur a réussi à aligner trois symboles ou lorsque la partie est déclarée nulle. </li>
+            </ul>
+
+    </article>
+
+        </ul>
+    </article>
+</section>
+    <script src="script.js"></script> 
+    <!-- On relie le html avc  le css  -->
+    
+</body>
+</html>
+

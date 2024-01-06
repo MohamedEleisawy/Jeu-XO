@@ -1,0 +1,78 @@
+
+*, ::after , ::before{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(29, 33, 71);
+    /* background-image: url('pexels-elīna-arāja-3400795.jpg'); */
+    /* background-repeat: no-repeat; */
+}
+h1{
+    font-size: 2.5em;
+    color: rgb(255, 255, 95);
+    text-align: center;
+    line-height: 1.4;
+    font-weight: normal;
+    background-color: rgb(29, 33, 71);
+
+}
+.titre{
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(44, 45, 151);
+    text-align: center;
+    width:100%;
+    height:99px;
+    /* line-height:30px; */
+    letter-spacing:3px;
+    font-size:40px;
+}
+span{
+    color:#fff;
+}
+
+.jeu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height:calc(60vh + 40px);
+    background-color: white;
+    color: royalblue;
+    background-color: rgb(40, 46, 103);
+    margin: auto;
+    font-size: 7em;
+    text-align: center;
+    font-weight: 600;
+}
+div{
+    background-color: rgb(38, 64, 113);
+    height: 20vh;
+    padding: 5px;
+    margin: 5px;
+}
+.carre{
+    border-radius: 10px;
+}
+.carre:hover{
+    background-color :white;
+    cursor: pointer;
+}
+article{
+    display: flex;
+    background-color: yellow;
+}
+p{
+    font-size: 1.6em;    
+    color: red;
+
+}
+li{
+    list-style: none;
+    color: blue;
+    padding: 10px;
+
+}
+article{
+    justify-content:center;
+    align-items:center;
+}
